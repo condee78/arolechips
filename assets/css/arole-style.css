@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  color: #454545;
+}
+header {
+  display: inline;
+}
+nav {
+  background-color: white;
+  padding: 5px 60px 5px 5px;
+  position: sticky;
+  top: 0;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+nav .logo {
+  flex-grow: 1;
+  font-size: 20px;
+  padding-left: 60px;
+  background-color: #ff9a00;
+  text-align: center center;
+}
+nav .menu {
+  flex-grow: 2;
+  text-align: right;
+}
+
+main {
+  padding: 0 60px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+}
+.hero {
+  height: 500px;
+  min-height: 400px;
+}
+.hero .hero-title {
+  flex-grow: 1;
+  background-color: #333333;
+  padding: 40px 0;
+}
+.hero .hero-title h1 {
+  font-size: 30px;
+}
+.hero .hero-image {
+  flex-grow: 1;
+  background-color: #2300eb;
+  padding: 20px;
+  text-align: left;
+}
+
+.featured-box {
+  box-sizing: border-box;
+  height: auto;
+  padding: 0px 10%;
+  border: red 1px solid;
+}
+
+.featured-box .card-icon {
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 20px;
+  margin: 20px;
+  line-height: 1.7em;
+}
+.featured-box .card-icon .head {
+}
+
+.featured-box .card-icon .title {
+  font-weight: 600;
+}
+.featured-box .card-icon .subtitle {
+  font-weight: 400;
+  font-size: 10px;
+  color: #9e9d9d;
+}
