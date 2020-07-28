@@ -57,6 +57,7 @@ main {
   height: 500px;
   min-height: 400px;
   box-sizing: border-box;
+  border: red 1px solid;
 }
 .hero .hero-title {
   flex-basis: 50%;
@@ -79,6 +80,7 @@ main {
   height: auto;
   padding: 0px 10%;
   border: red 1px solid;
+  margin: 30px 0px;
 }
 
 .featured-box .card-icon {
@@ -104,8 +106,55 @@ main {
 
 /* ----------- FEATURED SECTION END ------------- */
 
-/* ----------- OTHER ASSEST SECTION ------------- */
+/* ----------- PRODUCT SECTION ------------- */
+.featured-product {
+  box-sizing: border-box;
+  height: auto;
+  border: red 1px solid;
+  flex-direction: column;
+  margin: 30px 0px;
+}
 
+.featured-product .article-title {
+  flex-basis: 100%;
+  text-align: center;
+}
+.featured-product .article-body {
+  display: flex;
+}
+.featured-product .article-items {
+  flex-basis: 100%;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  border: pink 1px solid;
+}
+
+.featured-product .article-card-item .card-product {
+  flex-basis: 50%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  line-height: 1.7em;
+}
+
+.featured-product .article-card-item .card-product .title {
+  font-weight: 600;
+}
+.featured-product .article-card-item .card-product .subtitle {
+  font-weight: 400;
+  font-size: 10px;
+  color: #9e9d9d;
+}
+
+/* ----------- PRODUCT SECTION END ------------- */
+
+/* ----------- OTHER ASSEST SECTION ------------- */
+.article-title {
+  text-align: center;
+}
 .cta-button {
   font-size: 12px;
   padding: 6px 12px;
