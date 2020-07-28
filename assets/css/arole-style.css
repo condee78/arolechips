@@ -16,7 +16,7 @@ nav {
   position: sticky;
   top: 0;
   display: flex;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav li {
@@ -51,6 +51,8 @@ main {
   min-height: 100px;
   display: flex;
 }
+
+/* ----------- HERO SECTION ------------- */
 .hero {
   height: 500px;
   min-height: 400px;
@@ -69,6 +71,9 @@ main {
   text-align: center;
 }
 
+/* ----------- HERO SECTION END ------------- */
+
+/* ----------- FEATURED SECTION ------------- */
 .featured-box {
   box-sizing: border-box;
   height: auto;
@@ -79,7 +84,7 @@ main {
 .featured-box .card-icon {
   flex-grow: 1;
   text-align: center;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
@@ -95,4 +100,61 @@ main {
   font-weight: 400;
   font-size: 10px;
   color: #9e9d9d;
+}
+
+/* ----------- FEATURED SECTION END ------------- */
+
+/* ----------- OTHER ASSEST SECTION ------------- */
+
+.cta-button {
+  font-size: 12px;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.cta-button:focus,
+.cta-button:active:focus {
+  outline: thin dotted; /*
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;*/
+}
+.cta-button:hover,
+.cta-button:focus {
+  color: #333;
+  text-decoration: none;
+}
+.cta-button:active {
+  background-image: none;
+  outline: 0;
+  /*
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  */
+}
+
+.cta-primary {
+  color: white;
+  background-color: #ff9a00;
+  border-color: #fcae39;
+}
+.cta-primary:focus {
+  color: white;
+  background-color: #ff9a00;
+  border-color: #fcae39;
+}
+.cta-primary:hover {
+  color: white;
+  background-color: #ff9a00;
+  border-color: #d47f00;
+}
+.cta-primary:active {
+  color: white;
+  background-color: #ff9a00;
+  border-color: #d47f00;
 }
