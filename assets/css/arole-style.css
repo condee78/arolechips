@@ -94,8 +94,7 @@ main {
   margin: 30px 0px;
 }
 
-.featured-box .card-icon {
-  flex-grow: 1;
+.card-icon {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -103,13 +102,13 @@ main {
   margin: 20px;
   line-height: 1.7em;
 }
-.featured-box .card-icon .head {
+.card-icon .head {
 }
 
-.featured-box .card-icon .title {
+.card-icon .title {
   font-weight: 600;
 }
-.featured-box .card-icon .subtitle {
+.card-icon .subtitle {
   font-weight: 400;
   font-size: 10px;
   color: #9e9d9d;
@@ -176,13 +175,58 @@ main {
 
 /* ----------- PRODUCT SECTION END ------------- */
 
+/* ----------- TESTIMONIAL ------------- */
+.featured-testimonial {
+  height: auto;
+  border: red 1px solid;
+  padding: 0 10%;
+}
+
+.card-icon .photo-client {
+  border-radius: 50%;
+  width: 75px;
+  margin: 5px auto;
+  height: 75px;
+}
+.card-icon .star-rating {
+  margin: 5 auto;
+  width: 50%;
+  height: auto;
+}
+
+.card-icon .review {
+  margin: 5 auto;
+  font-weight: 600;
+}
+
+.card-icon .client-name {
+  margin: 5 auto;
+  font-weight: 800;
+}
+
+.card-footer {
+  margin: 0 auto;
+}
+/* ----------- TESTIMONIAL END ------------- */
+
 .float-left {
   float: left;
 }
+.float-right {
+  float: right;
+}
 
 aside {
-  float: right;
+  padding-left: 30px;
+}
+.width-25 {
   width: 25%;
+}
+.width-75 {
+  width: 75%;
+}
+.width-50 {
+  width: 50%;
 }
 
 /* ----------- OTHER ASSEST SECTION ------------- */
