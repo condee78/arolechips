@@ -15,12 +15,20 @@ header {
   display: inline;
 }
 nav {
-  background-color: white;
-  padding: 5px 100px 5px 5px;
+  background-color: darkcyan;
+  margin: 5px auto;
   position: sticky;
   top: 0;
   display: flex;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+nav .logo {
+  text-align: center;
+  background-color: #ff9a00;
+}
+nav .menu {
+  text-align: right;
+  background-color: #9e9d9d;
 }
 
 nav li {
@@ -34,21 +42,12 @@ nav a {
   text-decoration: none;
   color: inherit;
 }
-nav .logo {
-  flex-grow: 1;
-  font-size: 20px;
-  padding-left: 60px;
-  background-color: #ff9a00;
-  text-align: center center;
-}
-nav .menu {
-  flex-grow: 2;
-  text-align: right;
-}
 
 main {
-  padding: 0 100px;
+  width: 80%;
+  margin: 0px auto;
   overflow: auto;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -60,7 +59,7 @@ main {
 /* ----------- HERO SECTION ------------- */
 .hero {
   height: 500px;
-  min-height: 400px;
+  min-height: 300px;
   box-sizing: border-box;
   border: red 1px solid;
 }
@@ -207,6 +206,21 @@ main {
 .card-footer {
   margin: 0 auto;
 }
+
+.profil-business {
+  /*height: 100%;
+  align-items: center;*/
+}
+
+.profil-business h3 {
+  text-align: left;
+  color: #ff9a00;
+}
+
+.profil-business table {
+  text-align: left;
+  font-size: 12px;
+}
 /* ----------- TESTIMONIAL END ------------- */
 
 .float-left {
@@ -217,7 +231,10 @@ main {
 }
 
 aside {
-  padding-left: 30px;
+  /*
+  margin: 0 auto;
+  */
+  padding: 10px 30px;
 }
 .width-25 {
   width: 25%;
@@ -311,4 +328,11 @@ aside {
   color: white;
   background-color: #ff9a00;
   border-color: #d47f00;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+  width: 50%;
+  margin: 30px auto;
 }

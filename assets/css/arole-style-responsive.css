@@ -1,27 +1,25 @@
-/*untuk layar device berukuran kecil*/
-@media screen and (min-width: 450px) {
-  .light_blue,
-  .green {
-    width: 50%;
-  }
-}
-
 /*untuk layar device berukuran sedang*/
-@media screen and (min-width: 550px) {
-  .red {
-    width: 33%;
+@media screen and (max-width: 600px) {
+  nav {
+    display: block;
   }
-
-  .orange {
-    width: 67%;
+  nav .menu {
+    text-align: center;
+  }
+  .container {
+    display: block;
+  }
+  .main {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero {
+    overflow: auto;
+    height: auto;
   }
 }
 
 /*untuk layar device berukuran besar*/
-@media screen and (min-width: 800px) {
-  .container {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+@media screen and (max-width: 992px) {
 }
