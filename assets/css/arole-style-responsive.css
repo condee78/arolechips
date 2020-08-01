@@ -5,6 +5,7 @@
   }
   nav .menu {
     text-align: center;
+    padding: 10px 0;
   }
   .container {
     display: block;
@@ -18,8 +19,24 @@
     overflow: auto;
     height: auto;
   }
+  .flex-3-column {
+    width: 100%;
+  }
+  .featured-testimonial {
+    float: none;
+    width: 100%;
+  }
+  .profil-business {
+    float: none;
+    width: 100%;
+  }
+  .article-items {
+    display: block;
+    width: 100%;
+  }
 }
 
-/*untuk layar device berukuran besar*/
+/*untuk layar device berukuran besar
 @media screen and (max-width: 992px) {
 }
+*/

@@ -4,10 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/arole-style.css" />
     <link rel="stylesheet" href="assets/css/arole-style-responsive.css" />
+
+    <script>
+    
+    </script>
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="nav">
         <div class="logo flex-basis-25">
           <img src="assets/img/logo-arole.png" />
         </div>
@@ -16,12 +20,13 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#product">Produk</a></li>
             <li><a href="#testimonial">Testimoni</a></li>
-            <li><a href="#about">Tentang</a></li>
+            <!--<li><a href="#about">Tentang</a></li>-->
           </ul>
         </div>
       </nav>
     </header>
     <main>
+      <div class="abstract-svg"></div>
       <div id="content">
         <article id="home" class="container hero">
           <div class="hero-title">
@@ -31,30 +36,41 @@
               dan pas bwt dijadiin teman ngemil yang asik.
             </p>
             <div class="hero-cta">
-              <button class="cta-button cta-primary">
-                Pesan Sekarang!
-              </button>
+              <a href="#product" class="cta-button cta-primary"
+                >Lihat Produk!</a
+              >
             </div>
           </div>
-          <div class="hero-image">
-            <img src="assets/img/Packing Front1.png" height="100%" />
+          <div class="hero-image relative">
+            <div class="">
+              <img src="assets/img/Packing.png" />
+            </div>
           </div>
         </article>
-        <article class="container featured-box">
-          <div class="card-icon flex-grow-1">
-            <div class="head">CLOCK</div>
-            <div class="title">Today open 5-7 PM</div>
-            <div class="subtitle">working hours</div>
+
+        <article class="container featured-box flex-justify-content">
+          <div class="card-icon flex-3-column">
+            <div class="head relative">
+              <div class="center-10">
+                <img src="assets/img/clock.png" />
+              </div>
+            </div>
+            <div class="title">Open 09:00 am - 05:00 pm</div>
+            <div class="subtitle">Working hours</div>
           </div>
-          <div class="card-icon flex-grow-1">
-            <div class="head">CLOCK</div>
-            <div class="title">Today open 5-7 PM</div>
-            <div class="subtitle">working hours</div>
+          <div class="card-icon flex-3-column">
+            <div class="head relative">
+              <div class="center-10"><img src="assets/img/location.png" /></div>
+            </div>
+            <div class="title">Tangerang</div>
+            <div class="subtitle">Location</div>
           </div>
-          <div class="card-icon flex-grow-1">
-            <div class="head">CLOCK</div>
-            <div class="title">Today open 5-7 PM</div>
-            <div class="subtitle">working hours</div>
+          <div class="card-icon flex-3-column">
+            <div class="head relative">
+              <div class="center-10"><img src="assets/img/phone.png" /></div>
+            </div>
+            <div class="title">+62 877-0706-1980</div>
+            <div class="subtitle">Call Online</div>
           </div>
         </article>
 
@@ -71,50 +87,66 @@
           <div class="flex">
             <div class="article-items flex flex-row flex-basis-100">
               <div class="card-product flex-basis-50">
-                <div class="photo">Image</div>
+                <div class="photo">
+                  <img src="assets/img/takulay spoiler.jpg" />
+                </div>
                 <div class="title flex flex-row">
                   <div class="product-name flex-basis-75">Takulay</div>
                   <div class="product-price flex-basis-25">IDR 17K</div>
                 </div>
                 <div class="category">Chips</div>
                 <div class="description">
-                  Tahu Kulit Ayam bikin kamu lemas takulay keenaan.
+                  Takulay (Tahu Kulit Ayam) bikin kamu lemas takulay keenakan.
                 </div>
               </div>
               <div class="card-product flex-basis-50">
-                <div class="photo">Image</div>
-                <div class="title flex flex-row">
-                  <div class="product-name flex-basis-75">Takulay</div>
-                  <div class="product-price flex-basis-25">IDR 17K</div>
+                <div class="photo">
+                  <img src="assets/img/kurubaki spoiler.jpg" />
                 </div>
-                <div class="category">Chips</div>
+                <div class="title flex flex-row">
+                  <div class="product-name flex-basis-75">Kurubaki</div>
+                  <div class="product-price flex-basis-25">IDR 6K</div>
+                </div>
+                <div class="category">Snacks</div>
                 <div class="description">
-                  Tahu Kulit Ayam bikin kamu lemas takulay keenaan.
+                  Kurubaki (Kurupuk Bakso Ikan) bikin kamu berasa terbang ke
+                  Jepang.
                 </div>
               </div>
             </div>
           </div>
         </article>
 
-        <article id="testimonial" class="float-left width-50">
+        <article
+          id="testimonial"
+          class="float-left width-50 featured-testimonial"
+        >
           <div class="article-title">
             <h1>Testimoni</h1>
             <p>
               Lihat apa kata mereka setelah nyicipin kripik Arole.chips.
             </p>
           </div>
-          <div class="flex flex-column featured-testimonial">
+          <div class="flex flex-column testimonial-items">
             <div class="card-icon">
-              <img src="/assets/img/Takulay.jpg" class="photo-client" />
-              <div class="review">
-                Nyobain Kripik Takulay enak banget. Awalnya ketawa karena
-                namanya "TAKULAY", tapi begitu nyobain eeh ketagihan
+              <img
+                id="photoClient"
+                src="assets/img/aziz.jpg"
+                class="photo-client"
+              />
+              <div id="reviewDesc" class="review">
+                Cemilan oke gan! ane makan sambil ngoding, ditambah ngopi tambah
+                nikmaat.
               </div>
-              <img src="assets/img/star-rating-5.png" class="star-rating" />
-              <div class="client-name">Dapid Bekam</div>
+              <img
+                id="starRating"
+                src="assets/img/star-rating-3.png"
+                class="star-rating"
+              />
+              <div id="clientName" class="client-name">Aziz</div>
             </div>
             <div class="card-footer">
-              <button class="cta-button cta-primary">
+              <button class="cta-button cta-primary" onclick="getReview(this);">
                 Lihat Review Lainnya
               </button>
             </div>
@@ -126,7 +158,7 @@
               <h2>Arole.chips</h2>
               <p>biskuit dan snack</p>
               <figure>
-                <img src="" />
+                <img src="assets/img/arole.jpg" />
                 <figcaption>Logo</figcaption>
               </figure>
               <div class="">
@@ -134,7 +166,7 @@
                 <table>
                   <tr>
                     <th>Pemilik</th>
-                    <td>Reza Cyrus Brataatmadja</td>
+                    <td>Fazri Aziz</td>
                   </tr>
                   <tr>
                     <th>Alamat</th>
@@ -154,7 +186,7 @@
                   </tr>
                   <tr>
                     <th>No. Telpon</th>
-                    <td>@arole.chips</td>
+                    <td>+62 877-0706-1980</td>
                   </tr>
                   <tr>
                     <th>Email</th>
@@ -168,5 +200,12 @@
       </div>
     </main>
     <footer>Copyright &copy Arole.Chips. All Right Reserved 2020</footer>
+
+    <script src="assets/js/arole.js"></script>
+
+    <script>
+      console.log(document.getElementById("photoClient"));
+      console.log(document.getElementById("clientName"));
+    </script>
   </body>
 </html>
