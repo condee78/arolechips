@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 1rem;
   margin: 0px;
   padding: 0px;
   color: #454545;
@@ -167,6 +167,12 @@ figure img {
 .article-title {
   text-align: center;
   padding: 0 80px;
+  font-weight: 600;
+}
+.article-title p {
+  line-height: 1.5rem;
+  color: #7a7a7a;
+  font-weight: 300;
 }
 /*.article-items {
 }*/
@@ -204,7 +210,7 @@ figure img {
 }
 .card-product .category {
   padding: 0px 30px;
-  font-size: 9px;
+  font-size: 10px;
 }
 .card-product .description {
   padding: 10px 30px;
