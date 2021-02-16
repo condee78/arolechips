@@ -26,7 +26,7 @@ window.onscroll = function () {
 };
 
 function dynamicNavbar() {
-  if (document.body.scrollTop > 300) {
+  if (document.body.scrollTop > 75) {
     nav.style.backgroundColor = "white";
     nav.style.boxShadow = "0 1px 1px rgba(50, 50, 50, 0.1)";
   } else {
@@ -48,4 +48,17 @@ function getReview() {
     photoClient.src = review2.photoClient;
     rating.src = review2.rating;
   }
+}
+
+function orderWA() {
+  const url =
+    "https://wa.me/6285725959716?text=Saya%20mau%20order%20Snack%20dan%20drink%20dari%20arolechips";
+  let win = window.open(url, "_blank");
+  win.focus();
+}
+
+function orderTokopedia() {
+  const url = "https://www.tokopedia.com/arole-chips";
+  let win = window.open(url, "_blank");
+  win.focus();
 }

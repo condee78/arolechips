@@ -18,7 +18,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#product">Produk</a></li>
             <li><a href="#testimonial">Testimoni</a></li>
-            <!--<li><a href="#about">Tentang</a></li>-->
+            <li><a href="#order">Order</a></li>
           </ul>
         </div>
       </nav>
@@ -72,7 +72,10 @@
           </div>
         </article>
 
-        <article id="product" class="container featured-product flex-column">
+        <article
+          id="product"
+          class="container featured-product flex-column pad-50"
+        >
           <div class="article-title flex-basis-100">
             <h1>Produk</h1>
             <p>
@@ -108,8 +111,7 @@
                 </div>
                 <div class="category">Snacks</div>
                 <div class="description">
-                  Kurubaki (Kurupuk Bakso Ikan) bikin kamu berasa terbang ke
-                  Jepang.
+                  Kerupuk Bakso Ikan Rasa Pedas dan Original.
                 </div>
               </div>
 
@@ -121,7 +123,7 @@
                   <div class="product-name flex-basis-75">Kurubaki</div>
                   <div class="product-price flex-basis-25">IDR 6K</div>
                 </div>
-                <div class="category">Snacks</div>
+                <div class="category">Drinks</div>
                 <div class="description">
                   Kurubaki (Kurupuk Bakso Ikan) bikin kamu berasa terbang ke
                   Jepang.
@@ -136,7 +138,7 @@
                   <div class="product-name flex-basis-75">Kurubaki</div>
                   <div class="product-price flex-basis-25">IDR 6K</div>
                 </div>
-                <div class="category">Snacks</div>
+                <div class="category">Drinks</div>
                 <div class="description">
                   Kurubaki (Kurupuk Bakso Ikan) bikin kamu berasa terbang ke
                   Jepang.
@@ -148,7 +150,7 @@
 
         <article
           id="testimonial"
-          class="float-left width-50 featured-testimonial"
+          class="float-left width-50 featured-testimonial pad-50"
         >
           <div class="article-title">
             <h1>Testimoni</h1>
@@ -226,6 +228,33 @@
         </aside>
       </div>
     </main>
+
+    <article
+      id="order"
+      class="container featured-order flex-column bg-color-arole"
+    >
+      <div class="article-title flex-basis-100">
+        <h1>Order Now!</h1>
+        <p style="color: #e68888">Yuk, order sekarang! Yang lain aja udah nyobain dan ketagihan. Masa kamu ga?! hehe</p>
+      </div>
+      <div class="flex">
+        <div class="article-items flex flex-column flex-basis-100">
+          <div class="flex-basis-100 center order">
+            <button class="cta-order cta-wa" onclick="orderWA(this);">
+              Order Via WhatsApp
+            </button>
+          </div>
+
+          <div class="flex-basis-100 center order">
+            <button class="cta-order cta-tokped" onclick="orderTokPed(this);">
+              Order via Tokopedia
+            </button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
     <footer>Copyright &copy Arole.Chips. Developed by Fazri Aziz</footer>
 
     <script src="assets/js/arole.js"></script>
