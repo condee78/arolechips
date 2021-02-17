@@ -1,6 +1,6 @@
 let review1 = {
-  clientName: "Neymar",
-  reviewdesc: "Os chips TAKULAY formam um espírito competitivo. Enfim, JOSS",
+  clientName: "Lingga",
+  reviewdesc: "Makaroni Basreng rasanya enak banget dari Arole~",
   photoClient: "assets/img/Neymar.jpg",
   rating: "assets/img/star-rating-4.png",
 };
@@ -52,7 +52,7 @@ function getReview() {
 
 function orderWA() {
   const url =
-    "https://wa.me/6285725959716?text=Saya%20mau%20order%20Snack%20dan%20drink%20dari%20arolechips";
+    "https://wa.me/6287707061980?text=Saya%20mau%20order%20Snack%20dan%20drink%20dari%20arolechips";
   let win = window.open(url, "_blank");
   win.focus();
 }
