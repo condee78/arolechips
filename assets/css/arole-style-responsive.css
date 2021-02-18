@@ -42,6 +42,10 @@
     width: 100%;
     height: auto;
   }
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*untuk layar device berukuran besar
