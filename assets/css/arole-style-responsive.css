@@ -34,6 +34,14 @@
     display: block;
     width: 100%;
   }
+  .center {
+    margin: 0 auto;
+    width: 50%;
+  }
+  video {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*untuk layar device berukuran besar

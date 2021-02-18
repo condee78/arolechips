@@ -451,6 +451,7 @@ footer {
 }
 .order {
   padding-top: 20px;
+  margin: 0 auto;
 }
 .pad-50 {
   padding-top: 70px;
@@ -480,5 +481,5 @@ footer {
 
 video {
   width: 100%;
-  height: auto;
+  height: 450px;
 }

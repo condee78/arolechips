@@ -1,15 +1,15 @@
 let review1 = {
   clientName: "Lingga",
   reviewdesc: "Makaroni Basreng rasanya enak banget dari Arole~",
-  photoClient: "assets/img/Neymar.jpg",
-  rating: "assets/img/star-rating-4.png",
+  photoClient: "assets/img/lingga.jpg",
+  rating: "assets/img/star-rating-5.png",
 };
 
 let review2 = {
-  clientName: "Dian Sastro",
+  clientName: "Yayat",
   reviewdesc:
     "Awalnya ketawa karena namanya TAKULAY, tapi begitu nyobain eeh ketagihan",
-  photoClient: "assets/img/Dian_Sastro.jpg",
+  photoClient: "assets/img/yayat.jpg",
   rating: "assets/img/star-rating-5.png",
 };
 
